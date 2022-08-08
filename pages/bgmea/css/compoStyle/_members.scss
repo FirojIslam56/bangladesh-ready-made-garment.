@@ -1,0 +1,65 @@
+.members-banner{
+    img{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+
+
+.members-lists{
+    .members-type-title{
+        text-align: center;
+        width: 100%;
+    }
+    table{
+        border: 1px solid lightgray;
+        td{
+            border: 1px solid lightgray;
+        }
+    }
+    .for-pagination{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+.members-search{
+    #membersSearchFormTwo{
+        .form-control{
+            appearance: auto;
+        }
+        select{
+            height: 38px;
+        }
+    }
+}
+
+
+
+.members-details{
+    .company-name-topbar{
+        background-color: lightgray;
+        justify-content: space-between;
+        width: 100%;
+        display: flex;
+        padding: 10px 30px;
+        align-items: center;
+    }
+    .members-info{
+        table th strong{
+            font-weight: bold;
+        }
+        table th, table td{
+            font-size: 14px;
+            padding: 10px;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,267 @@
+/*------bootnavbar.css-------*/
+.dropdown-menu {
+  margin-top: 0;
+}
+
+.dropdown-menu .dropdown-toggle::after {
+  vertical-align: middle;
+  border-left: 4px solid;
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid transparent;
+}
+
+.dropdown-menu .dropdown .dropdown-menu {
+  left: 100%;
+  top: 0%;
+  margin: 0 20px;
+  border-width: 0;
+}
+
+.dropdown-menu .dropdown .dropdown-menu.left {
+  right: 100%;
+  left: auto;
+}
+
+@media (min-width: 768px) {
+  .dropdown-menu .dropdown .dropdown-menu {
+    margin: 0;
+    border-width: 1px;
+  }
+
+  .dropdown-menu>li a:hover,
+  .dropdown-menu>li.show {
+    background: #007bff;
+    color: white;
+  }
+
+  .dropdown-menu>li.show>a {
+    color: white;
+  }
+}
+
+//My Edited Firoj
+.navbar {
+  background-color: orange;
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+  color: brown;
+  font-weight: bold;
+}
+
+/*------bootnavbar.css---End----*/
+
+
+/*-------Banner Section-------*/
+.banner{
+  padding-top: 52px;
+	ul li{
+		max-height: 350px;
+	}
+}
+
+/*-------About Section-------*/
+.about {
+  .content {
+    overflow: hidden;
+
+    .accordian {
+      max-width: 600px;
+      display: block;
+      margin: 40px auto;
+
+      .card {
+        box-shadow: 0px 0px 20px #d4d4d4;
+        margin-bottom: 20px;
+        float: left;
+        width: 100%;
+
+        .card-header {
+          position: relative;
+
+          h3 {
+            cursor: pointer;
+            color: #3343a2;
+            position: relative;
+            margin: 0;
+            padding: 0 20px;
+            font-size: 16px;
+          }
+
+          .my-i {
+            position: absolute;
+            right: 20px;
+            top: 12px;
+            color: #3343a2;
+            background-color: white;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 14px;
+          }
+        }
+
+        .card-body {
+          padding: 20px;
+          display: none;
+        }
+      }
+
+      //----Open One Card by Default---//
+      .card:nth-child(1) {
+        .card-body {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+/*-------Right Side Add-------*/
+.right-add{
+	background-color: white;
+	padding: 10px;
+	ul li{
+		margin: 5px 3px;
+	}
+
+	.splide__arrows--ttb .splide__arrow--prev,
+	.splide__arrows--ttb .splide__arrow--next {
+		display: none;
+	}
+}
+
+/*-------Video Slider-------*/
+.video-slider{
+	ul li{
+		max-height: 150px;
+	}
+}
+
+
+
+footer {
+  background: #292929;
+  height: auto;
+  padding: 50px 0;
+  text-align: left;
+  color: white;
+
+  p,
+  a {
+    font-size: 14px;
+    color: grey;
+  }
+
+  a:hover {
+    color: white;
+  }
+
+  //------First Row------//
+  .gallery {
+    .footer-content {
+      img {
+        height: 80px;
+        width: 100%;
+        padding: 5px 0;
+      }
+    }
+  }
+
+
+  .quick-links {
+    padding: 0 15px;
+
+    a {
+      padding: 5px 0;
+      display: block;
+      transition: .3s;
+
+      &:hover {
+        transform: translateX(10px);
+        transition: .3s;
+      }
+    }
+  }
+
+  .tag-widget {
+    padding: 0 15px;
+
+    .footer-content {
+      a {
+        padding: 5px;
+        margin: 5px;
+        border: 1px solid rgb(70, 55, 55);
+        border-radius: 4px;
+        display: inline-block;
+      }
+    }
+  }
+
+  //------Second Row------//
+  .bdrmg-menu {
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 25px;
+
+    a {
+      padding: 10px;
+      margin: 10px 5px;
+      font-weight: bold;
+
+      &:hover {
+        color: lightseagreen;
+        text-decoration: underline;
+      }
+
+    }
+  }
+
+  //------Third Row------//
+  .social-media {
+    text-align: center;
+
+    .icon {
+      color: grey;
+      border-radius: 50%;
+      padding: 10px;
+      height: 15px;
+      width: 15px;
+      background-color: rgb(23, 23, 23);
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+
+
+  dl,
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .splide__arrow {
+    display: none;
+  }
+
+  .splide__pagination {
+    display: none;
+  }
+}
+
+
+

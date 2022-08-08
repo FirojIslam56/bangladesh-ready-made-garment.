@@ -1,0 +1,45 @@
+/*=========Global Style=========*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.285;
+    font-family: sans-serif;
+    background: #F5F5F5;
+}
+html{
+    scroll-behavior: smooth;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+section{
+    padding: 30px 0;
+}
+
+.divider {
+    display: flex;
+    width: 200px;
+  }
+  .divider::after,
+  .divider::before {
+    content: "";
+    border: 1px solid orangered;
+    flex: 1;
+}
+
+
+/*==========compoStyle==========*/ 
+@import "./compoStyle/home";
+@import "./compoStyle/profile";
+@import "./compoStyle/members";
+@import "./compoStyle/contact";
+

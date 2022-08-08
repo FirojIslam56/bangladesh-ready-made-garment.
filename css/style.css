@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: aliceblue;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.baner .banner-box .top-box {
+  display: flex;
+  height: 500px;
+}
+.baner .banner-box .top-box .div-1 {
+  width: 20%;
+  background-color: white;
+  margin: 0 5px 5px 0;
+  color: black;
+  padding: 10px;
+}
+.baner .banner-box .top-box .div-1 .category-title {
+  background-color: whitesmoke;
+  padding: 5px 0;
+  font-size: 18px;
+}
+.baner .banner-box .top-box .div-1 .category-items ul {
+  margin: 0;
+  padding: 0;
+}
+.baner .banner-box .top-box .div-1 .category-items a {
+  width: 100%;
+  color: black;
+  display: block;
+  padding: 5px 0;
+}
+.baner .banner-box .top-box .div-1 .category-items a .icon-right {
+  float: right;
+}
+.baner .banner-box .top-box .div-1 .category-items a:hover {
+  color: orangered;
+  font-weight: bold;
+}
+.baner .banner-box .top-box .div-2 {
+  width: 60%;
+  position: relative;
+  margin: 0 5px 5px 5px;
+}
+.baner .banner-box .top-box .div-2 .banner-bottom-image {
+  bottom: 0px;
+  position: absolute;
+  background-image: linear-gradient(to right, orangered, yellow);
+  height: auto;
+  width: 100%;
+}
+.baner .banner-box .top-box .div-2 .banner-bottom-image li {
+  text-align: center;
+  padding: 10px 0;
+}
+.baner .banner-box .top-box .div-2 .banner-bottom-image img {
+  height: 120px;
+  width: auto;
+}
+.baner .banner-box .top-box .div-2 .banner-bottom-image .splide__arrow {
+  height: 15px;
+  width: 15px;
+}
+.baner .banner-box .top-box .div-2 .banner-bottom-image .splide__arrow svg {
+  fill: #000;
+  height: 10px;
+  width: 10px;
+}
+.baner .banner-box .top-box .div-2 .banner-bottom-image .splide__pagination li {
+  display: none;
+}
+.baner .banner-box .top-box .div-3 {
+  width: 20%;
+  background-color: blue;
+  margin: 0 0 5px 5px;
+}
+.baner .banner-box .top-box .div-3 .right-small-banner {
+  padding: 10px;
+}
+.baner .banner-box .top-box .div-3 .right-small-banner #bannerRightBottom .splide__slide {
+  margin: 5px 0;
+}
+.baner .banner-box .top-box .div-3 .right-small-banner #bannerRightBottom .splide__slide img {
+  height: 100%;
+  width: 100%;
+}
+.baner .banner-box .top-box .div-3 .right-small-banner #bannerRightBottom .splide__arrow {
+  display: none;
+}
+.baner .banner-box .top-box .div-3 .right-small-banner #bannerRightBottom .splide__pagination li {
+  display: none;
+}
+.baner .banner-box .bottom-box {
+  width: 100%;
+  height: 200px;
+  margin: 25px 0;
+}
+.baner .banner-box .bottom-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.main-body {
+  display: flex;
+  margin-top: 10px;
+}
+.main-body .main-middle {
+  width: 80%;
+  height: auto;
+}
+.main-body .main-right {
+  width: 20%;
+  height: 700px;
+  background-color: #FFFFFF;
+}
+.main-body .main-right .items-box {
+  padding: 10px;
+}
+.main-body .main-right .items-box .item {
+  display: flex;
+  margin: 30px 0;
+  justify-content: space-between;
+  border: 1px solid white;
+}
+.main-body .main-right .items-box .item .title {
+  font-size: 16px;
+}
+.main-body .main-right .items-box .item img {
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+  background: #292929;
+  height: auto;
+  padding: 50px 0;
+  text-align: left;
+  color: white;
+}
+footer p,
+footer a {
+  font-size: 14px;
+  color: grey;
+}
+footer a:hover {
+  color: white;
+}
+footer .gallery {
+  padding: 0 15px;
+}
+footer .gallery img {
+  min-height: 150px;
+}
+footer .quick-links {
+  padding: 0 15px;
+}
+footer .quick-links a {
+  padding: 5px 0;
+  display: block;
+  transition: 0.3s;
+}
+footer .quick-links a:hover {
+  transform: translateX(10px);
+  transition: 0.3s;
+}
+footer .tag-widget {
+  padding: 0 15px;
+}
+footer .tag-widget .footer-content a {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid rgb(70, 55, 55);
+  border-radius: 4px;
+  display: inline-block;
+}
+footer .bdrmg-menu {
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 25px;
+}
+footer .bdrmg-menu a {
+  padding: 10px;
+  margin: 10px 5px;
+  font-weight: bold;
+}
+footer .bdrmg-menu a:hover {
+  color: lightseagreen;
+  text-decoration: underline;
+}
+footer .social-media {
+  text-align: center;
+}
+footer .social-media .icon {
+  color: grey;
+  border-radius: 50%;
+  padding: 10px;
+  height: 15px;
+  width: 15px;
+  background-color: rgb(23, 23, 23);
+}
+footer .social-media .icon:hover {
+  color: white;
+}
+footer dl,
+footer ol,
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+footer .splide__arrow {
+  display: none;
+}
+footer .splide__pagination {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
